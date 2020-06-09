@@ -65,7 +65,17 @@ name = input('What is your name: ')
 some_string = '527263'
 some_number = int(some_string) # this forces the string '527263' to become an
                                # int so that we can perform calculations on it
-
+# [Leo]: Note to self: the str() function can change a int to a string again
+# so for example...
+some_new_string = str(some_number) 
+print(some_new_string + 'yay')
+# By the way... 
+# if you try to add a int to a string, this will happen
+#Traceback (most recent call last):
+  #File "/Users/leothepurplepig/Desktop/codelab/coding-tutorial/lesson04.py", line 50, in <module>
+    #print("The sum is: " + a)
+#TypeError: can only concatenate str (not "int") to str
+# Ya you see
 ################################################################################
 # LESSON 3
 ################################################################################
@@ -81,3 +91,10 @@ some_number = int(some_string) # this forces the string '527263' to become an
 # You are <their actual age> years old!
 
 # Remember, you can use the + operator to combine text!
+age = input("What is your age: ")
+print("Your name is: " + name + "\n" + "You are: " + age + " years old!" + '\n')
+print(some_number+2)
+print('I\'m a boy') 
+print('"I\'m ALIVE," Frankenstine said.')
+print("\"I'm ALIVE,\" Frankenstine said.")
+print(some_number+2)

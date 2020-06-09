@@ -42,3 +42,18 @@ print(11 // 3) # ah, we print out 3 now!
 # * The difference is: <the subtracted value>
 # * The product is: <the multiplied value>
 # * The quotient is: <the quotient - must be an integer>, and the remainder is: <the remainder>
+First_input = input("Enter your first number: ")
+Second_input = input("Enter your second number: ")
+int1 = int(First_input)
+int2 = int(Second_input)
+a = int1 + int2
+b = str(a)
+ab = int1 - int2
+ba = str(ab)
+abb = int1 * int2
+bba = str(abb)
+aab = int1 % int2
+baa = str(aab)
+aabb = int1 // int2
+bbaa = str(aabb)
+print("The sum is: " + b + '\n' + "The difference is: " + ba + '\n' + "The product is: " + bba + '\n' + "The quotient is: " + bbaa + ", " + "and the remainder is: " + baa)
