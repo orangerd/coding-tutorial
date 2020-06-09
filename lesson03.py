@@ -91,6 +91,7 @@ print(some_new_string + 'yay')
 # You are <their actual age> years old!
 
 # Remember, you can use the + operator to combine text!
+
 age = input("What is your age: ")
 print("Your name is: " + name + "\n" + "You are: " + age + " years old!" + '\n')
 print(some_number+2)
@@ -98,3 +99,10 @@ print('I\'m a boy')
 print('"I\'m ALIVE," Frankenstine said.')
 print("\"I'm ALIVE,\" Frankenstine said.")
 print(some_number+2)
+
+################################################################################
+# LESSON 3 - EXTRA CREDIT!
+################################################################################
+# Try to print out the following line:
+#
+# "I'm ALIVE," Frankenstein said.
