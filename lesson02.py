@@ -76,7 +76,8 @@ print('\n\n      /\\_/\\\n /\\  / o o \\\n//\\\\ \\~(*)~/\n`  \\/   ^ /\n   | \\
 # The \ character (also called the backslash) is a special character in
 # strings, since it can be used to store and output characters (like a new
 # line). It can be used for these special situations:
-# * To emit a quote (') character, use \'
+# * To emit a quote (') character, use \' (only if you use 'your string')
+# * To emit a double quote (") character, use \" (only if you use "your string")
 # * To emit a backslash (\) character, use \\
 # * To emit a new line, use \n
 # * To emit a tab, use \t

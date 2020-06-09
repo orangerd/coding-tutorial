@@ -81,3 +81,10 @@ some_number = int(some_string) # this forces the string '527263' to become an
 # You are <their actual age> years old!
 
 # Remember, you can use the + operator to combine text!
+
+################################################################################
+# LESSON 3 - EXTRA CREDIT!
+################################################################################
+# Try to print out the following line:
+#
+# "I'm ALIVE," Frankenstein said.
