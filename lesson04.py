@@ -25,6 +25,12 @@ print(11 / 3) # we should get 3, but...
 
 print(11 // 3) # ah, we print out 3 now!
 
+# There's also the exponent operator for cases when you want to represent
+# "5 to the power of 2", for example:
+
+print(5 ** 2) # this prints out 25
+print(2 ** 5) # this prints out 32
+
 ################################################################################
 # LESSON 4
 ################################################################################
