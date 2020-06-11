@@ -206,3 +206,10 @@ if x >= 0:
 
 # Do you still remember how we find out if a number is even or odd? Look back
 # at lesson04.py if you forgot!
+
+abc = input("Yo, give me a number ya human poashdfghsgdufygaudjfg: ")
+cba = int(abc)
+if cba % 2 == 0:
+  print("Hmmph, it is even ya alien sdjhfljadsgfkuhasd")
+else:
+  print("ya numba is odd my human doodooface")
