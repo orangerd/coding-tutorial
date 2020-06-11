@@ -243,3 +243,24 @@ if (not x == 10) or y == 50:
 #   * You can only watch PG movies if you're under 12
 #   * You can watch PG-13 movies if you're 13 and above, and less than 18
 #   * You can watch R-rated movies if you're 18 and above
+
+age = input('how old are you? Type here: ')
+
+
+int_age = int(age)
+
+
+
+
+if int_age < 0 or int_age > 130:
+  print('Please enter a legit age')
+
+elif not int_age >= 13 :
+  print("you can only watch PG movies. :(")
+
+elif int_age >= 13 and int_age < 18:
+  print('yay, you can watch PG 13')
+
+else:
+  print('You can watch R movies but you might get nightmares.')
+

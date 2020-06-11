@@ -189,7 +189,8 @@ if inputed_max == 0:
 elif inputed_max > 500:
   print('seriously, I knew you were going to try this :| . Here we go: ')
 
-time.sleep(4)
+if inputed_max > 500:
+  time.sleep(4)
 
 for bottles_amount in range(inputed_max, 0, -1):
   bottles_amount_next = bottles_amount - 1 
