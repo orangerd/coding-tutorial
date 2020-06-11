@@ -76,6 +76,7 @@ print(some_new_string + 'yay')
     #print("The sum is: " + a)
 #TypeError: can only concatenate str (not "int") to str
 # Ya you see
+
 ################################################################################
 # LESSON 3
 ################################################################################
