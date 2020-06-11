@@ -208,4 +208,5 @@ for bottles_amount in range(inputed_max, 0, -1):
   special = str(bottles_amount) + ' ' + bottle_type +' of beer on the wall, ' + str(bottles_amount) + ' ' + bottle_type + ' of beer.' + '\n' + 'Take one down and pass it around, ' + str(bottles_amount_next) + ' ' + bottle_type_next + ' of beer on the wall...'
   print(special)
 string_max_beers = str(inputed_max)
-print('No more bottles of beer on the wall, no more bottles of beer.' + '\n' + 'Go to the store and buy some more, ' + string_max_beers + 'bottles of beer on the wall...')
+print('No more bottles of beer on the wall, no more bottles of beer.' + '\n' + 'Go to the store and buy some more, ' + string_max_beers + 'bottles of beer on the wall...')  
+print('here you go')
