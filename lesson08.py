@@ -6,9 +6,9 @@
 # Remember that when we tried to divide integer values as is, we got this long
 # decimal number? Something like:
 
-a = 5 / 3
+#a = 5 / 3
 
-print(a) # this prints 1.6666666667
+#print(a) # this prints 1.6666666667
 
 # The variable 'a' contains a value type called floating points (or just
 # floats). Floats are just numbers with a decimal point.
@@ -25,7 +25,7 @@ print(a) # this prints 1.6666666667
 
 # The other reason is because of accuracy. Try this:
 
-print(1.2 - 1.0)
+#print(1.2 - 1.0)
 
 # When you look at this, it should be obvious that the answer should be 0.2.
 # But, when you run this in Python, you'll probably get the answer:
@@ -45,10 +45,10 @@ print(1.2 - 1.0)
 # or even integers (and integers can be added, subtracted, multiplied, and
 # divided by other integers and floats as well):
 
-print(1.2 + 5)
-print(7.2 - 2.2)
-print(2 * 1.9)
-print(85 / 5)
+#print(1.2 + 5)
+#print(7.2 - 2.2)
+#print(2 * 1.9)
+#print(85 / 5)
 
 # The result of all these operations is ALWAYS a float, though (even if the
 # value turns out to become an integer, like in the 2nd example, it will still
@@ -57,9 +57,9 @@ print(85 / 5)
 # Floats can also use the exponents operator, integer division, and modulo
 # operators:
 
-print(9.7 ** 5)
-print(27.3 // 7.3)
-print(27.3 % 7.3)
+#print(9.7 ** 5)
+#print(27.3 // 7.3)
+#print(27.3 % 7.3)
 
 # You'll rarely use these, so don't worry too much about them!
 
@@ -70,11 +70,11 @@ print(27.3 % 7.3)
 # concatenate) strings. When we concatenate strings, we get a new string with
 # the strings all stuck together:
 
-a = 'hi, '
-b = 'my name is '
-c = 'iron man!'
+#a = 'hi, '          
+#b = 'my name is '
+#c = 'iron man!'
 
-print(a + b + c) # prints "hi, my name is iron man!"
+#print(a + b + c) # prints "hi, my name is iron man!"
 
 # This allows us to join together different strings to create one giant string
 # instead. Naturally, Python chose the + operator, since we're kind of just
@@ -90,7 +90,7 @@ print(a) # prints "i love python i love python i love python"
 # We can use this trick to make text art (we also call them ASCII art - ask
 # me why it's called ASCII later!):
 
-print('O' + ('_' * 50) + 'o')
+print('O' + ('_' * 50) + 'O')
 
 ################################################################################
 # LESSON 8
@@ -99,3 +99,81 @@ print('O' + ('_' * 50) + 'o')
 # and string multiplication!
 
 # The sky is the limit for your imagination!
+print(' ')
+print(' ')
+print(' ')
+
+
+
+#Crazymonkeycoder
+print(' ')
+print(' ')
+print(' ')
+
+
+
+
+
+
+
+
+
+print(' '*32+'/'+'\\'+ ' '*12 + '/'+'\\' )
+print(' '*31+'/'+'  \\'+ ' '* 10 + '/'+'  \\' )
+print(' ' * 30 + '/'+'    \\'+ ' '* 8 + '/'+'    \\' )
+print(' '* 30 + ('_'* 20))
+print(' '* 30 + '\\' + (' ' * 18) + '/')
+print(' ' * 31 + '\\' + (' ' * 16) + '/')
+print(' ' * 32 + '\\' + ' ' * 3 + 'O' + ' ' * 6 + 'O' + ' ' * 3+ '/')
+print(' '*33+'\\'+' '*12+'/'+'_'*40)
+print(' '*34+'\\'+' '*10+'/')
+print(' '*35+'\\'+' '*8+'/')
+print(' '*36+'\\'+' '*6+'/')
+print(' '*37+'\\'+' '*4+'/'+'_'*46)
+print(' '*38+'\\'+' '*2+'/')
+print(' '*39+'\\'+' '*0+'/')
+
+
+print('y            y'         +     '         A         ' )   
+print(' y          y'          +    '         A  A        '  )
+print('  y        y'           +   '         A    A        '      )
+print('   y      y'   +           '         A      A        '  )
+print('    y    y' +             '         A        A        '                             )
+print('     y  y'+              '         AAAAAAAAAAAA        '         )                                                      
+print('      yy'+              '         A            A        ' )
+print('      yy'+             '         A            A        ' )
+print('      yy'             '         A            A        '          )
+print('      yy')
+print('      yy')
+print('      yy')
+
+
+repeat_times = input('enter a number: ')
+int_repeat_times = int(repeat_times)
+
+if int_repeat_times > 300 or int_repeat_times < 1:
+    print('Please enter a different number')
+else:
+ print('\\' + '\\'*int_repeat_times)         
+ print('  \\'+ ' \\'*int_repeat_times) 
+ print('    \\'+ ' \\'*int_repeat_times)                             
+ print('      \\'+ ' \\'*int_repeat_times)  
+ print('        \\'+ ' \\'*int_repeat_times)  
+ print('          \\'+ ' \\'*int_repeat_times)   
+ print('           /'+' /'*int_repeat_times)         
+ print('         /'+' /'*int_repeat_times)                                                            
+ print('       /'+' /'*int_repeat_times)       
+ print('     /'+' /'*int_repeat_times)    
+ print('   /'+' /'*int_repeat_times) 
+ print(' /'+' /'*int_repeat_times)       
+
+ print('look up 🔺, cool right')
+  
+ print('        \\'*int_repeat_times)  
+ print('          \\'*int_repeat_times)   
+ print('           /'*int_repeat_times)         
+ print('         /'*int_repeat_times)                                                            
+
+ print('scroll up 🔺')
+
+
